@@ -1,0 +1,71 @@
+* {
+    
+    box-sizing: border-box;
+}
+body {
+    background: url(imagenes/guille.jpg);
+    margin-top: 50px;
+ 
+ 
+}
+  
+    div{
+        
+
+    }
+    header{
+        position: fixed;
+        top: 0;
+        background: red;
+        height: 50px;
+    }
+        .redes{
+            
+            background: limegreen;
+            
+
+        }   
+            .redes a{
+                color: blue;
+            }
+            .redes a:hover{
+                color: red;
+            }
+    p {
+        text-align: center;
+    }
+    .sobremi {
+        justify-content: center;
+        background-color: crimson;
+        margin-left: 370px;
+        margin-right: 350px;
+        
+        
+
+    }
+    .foto{
+        float: right;
+        width: 400px;
+        height: 400px;
+        overflow: auto;
+    }
+        
+
+
+
+
+#redes{
+    max-width:600px; 
+    margin-left: 700px;
+}
+
+
+@media all and (max-width: 500px){
+    .body{
+       
+        background: url(imagenes/guille.jpg);
+    }
+    .h1{
+        color:red;
+    }
+}
